@@ -52,7 +52,8 @@ class ExternalRefsData:
     """
     external_type_map = {
         'msdn': {
-            'System': ['Tuple', 'IDisposable', 'ICloneable', 'IComparable', 'Func', 'Action'],
+            'System': ['Tuple', 'IDisposable', 'ICloneable', 'IComparable', 'Func', 'Action',
+                       'Int16', 'Int32', 'Int64', 'Int128', 'UInt16', 'UInt32', 'UInt64', 'UInt128'],
             'System.Collections': ['IEnumerator'],
             'System.Collections.Generic': ['List', 'Dictionary', 'IList', 'IDictionary', 'ISet', 'IEnumerable'],
             'System.IO': ['FileFormatException'],
